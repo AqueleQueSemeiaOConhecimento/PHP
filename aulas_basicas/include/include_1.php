@@ -15,7 +15,43 @@
     não requerem a utilização de parêntesis
     */
 
-    include 'config.php';
+
 
     # Esta instrução vai inserir o código de programação do script config.php dentro
     # do script atual.
+
+
+    // ------------------------------------------------------------------------------------------------
+
+    include 'config.php';
+
+    echo NOME_APLICACAO;
+
+    # CAMINHO PAR AO INCLUDE
+
+    /*
+    Podemos "incluir" um script dentro de outro usando:
+    1. Nenhum caminho e apenas o nome script a ser incluido;
+    2. Um caminho relativo ao script atual;
+    3. um caminho absoluto - que indica a localização exata do script no fylesystem.
+
+    1. Apenas quando o script a incluir está na mesma pasta atual
+
+    2. Caminho relativo à pasta do script atual
+    */
+
+    //include 'inc/dados.php';
+    //echo '<br>';
+    //echo $nome;
+
+    // quabdi becessário "andar para trás" na árvore de pastas usamos ../
+    /*
+    include '../outro_script.php';
+    echo '<br>';
+    echo '$valor';
+    */
+
+    # 3. O caminho absoluto
+    // include 'C:\laragon\www\include_required\1\inc\dados2.php';
+    // echo '<br>';
+    // echo $hoje->format('d-m-u');
