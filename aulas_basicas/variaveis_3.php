@@ -104,7 +104,7 @@
     $v = null;
 
     /*
-    No primeiro caso, a variável é "libertada" e no próximo ciclo de limpera
+    No primeiro caso, a variável é "libertada" e no próximo ciclo de limpeza
     (garbage collector) ela é removida da memória.
 
     No segundo caso a variável vai persistir na memória, mas sem valor atribuído

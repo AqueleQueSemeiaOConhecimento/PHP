@@ -4,7 +4,7 @@
 
     /*
     Tem um resultado semelhante ao print_r, mas para além dos valores
-    apresenta tambpem a informação sobre o tipo de valores.
+    apresenta tambem a informação sobre o tipo de valores.
     */
 
     echo '<pre>';

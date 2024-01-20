@@ -5,8 +5,8 @@
 
     Um gerador é uma função que permite gerar séries de valores.
     Cada valor é devolvido pela função através da instrução yield.
-    Ao contrário do return, a instrução yield guarda o estado da unção
-    permitindo que a função continue a partir do estado onde ficou na última chamda
+    Ao contrário do return, a instrução yield guarda o estado da função
+    permitindo que a função continue a partir do estado onde ficou na última chamada
     */
 
     function buscar_numero()
@@ -16,7 +16,7 @@
         }
     }
 
-    ## A função geradora funciona como um iterador, podendo ser usada num ciclo
+    # A função geradora funciona como um iterador, podendo ser usada num ciclo
     # até que o gerador não tenha mais valores para devolver com o yield
     foreach(buscar_numero() as $numero)
     {

@@ -19,7 +19,7 @@
     echo $frase[5];
 
 
-    # Podemos comprar strings da seguinte forma:
+    # Podemos comparar strings da seguinte forma:
     $a = 'João';
     $b = 'Carlos';
 

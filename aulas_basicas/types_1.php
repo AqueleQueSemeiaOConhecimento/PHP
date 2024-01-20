@@ -15,10 +15,10 @@
         echo $mensagem;
     }
 
-    // falar('João'); // não é possívl
+    // falar('João'); // não é possível
 
     // --------------------------------------------------------------------------
-    function convertar (string $mensagem){
+    function conversar (string $mensagem){
         echo $mensagem;
     }
 
