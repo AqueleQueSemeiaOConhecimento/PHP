@@ -4,7 +4,7 @@
 
         STRRPOS
 
-        str r pos - procura a última ocorrência de uma string dentro de outra
+        strrpos - procura a última ocorrência de uma string dentro de outra
 
         A Haystack é a string onde vamos procurar a posição
         A Needle é a string cuja posição pretendemos obter dentro da string
