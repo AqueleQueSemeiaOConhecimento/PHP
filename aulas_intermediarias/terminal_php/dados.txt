@@ -1,0 +1,11 @@
+Esta linha contém o valor 6
+Esta linha contém o valor 60
+Esta linha contém o valor 99
+Esta linha contém o valor 91
+Esta linha contém o valor 78
+Esta linha contém o valor 56
+Esta linha contém o valor 2
+Esta linha contém o valor 72
+Esta linha contém o valor 34
+Esta linha contém o valor 40
+Esta linha contém o valor 68
