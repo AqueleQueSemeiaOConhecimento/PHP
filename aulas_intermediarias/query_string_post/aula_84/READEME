@@ -1,0 +1,8 @@
+Aula sobre input do tipo file
+Upload de ficheiros
+
+Para enviar arquivos pelo formulario é necessario usar isso aqui no form:
+
+enctype="multipart/form-data
+
+<form action="tratar_upload.php" method="post" enctype="multipart/form-data">

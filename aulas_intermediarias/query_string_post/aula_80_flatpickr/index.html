@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+<body>
+
+    <form action="tratar.php" method="POST">
+
+        <label>Indique a sua data de nascimento:</label><br>
+        <input type="text" name="data_nascimento" id="data_nascimento">
+
+        <hr>
+        
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <script>
+        let el = document.querySelector('#data_nascimento');
+        el.flatpickr({
+            dateFormat: "d-m-Y H:i",
+            enableTime: true,
+            mode: "range" // isso faz com que seja possivel escolher data de inicio e fim
+        });
+    </script>
+    
+</body>
+</html>
