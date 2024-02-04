@@ -1,0 +1,8 @@
+Aprendendo a destruir e limpar sessão:
+
+Para destruir uma sessão usamos o comando:
+session_destroy(); 
+Porem a sessão so vai ser destruida no próximo request
+
+Para limpar uma sessão/destruir o melhor a se fazer é usar o seguinte comando:
+session_unset();

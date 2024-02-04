@@ -1,0 +1,13 @@
+Alguns conceitos de mysql e phpmyadmin
+
+1 - Podemos ter o servidor de banco de dados MySQL e o servidor do PHP na mesma
+maquina, mas muitas vezes eles estão em maquinas diferentes.
+Vale mensionar que posso ter um banco de dados com mais de um servidor de PHP
+por exemplo.
+ 
+2 - Para acessar o phpMyAdmin foi necessário no meu caso entrar com o usuario do MySQL
+e senha.
+Usuario: root
+Senha: 0000
+
+root = raiz

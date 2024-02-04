@@ -1,0 +1,18 @@
+ Para colocarmos o tamanho máximo de um arquivo é simples, siga o exemplo:
+
+ if($file['size'] > 500000) {
+    echo 'Erro, tamanho do arquivo excedido';
+    continue;       
+ }
+
+ Nesse exemplo $file['size'] é o tamanho do arquivo e no caso dele exceder a 500000
+ ocorrera um erro.
+
+ ------------------------------------------------
+
+ Para lidarmos com tamanho minimo e máximo de imagem aceitavel temos uma função
+ própria do PHP, getImagesize(), usada conforme o exemplo:
+
+    print_r(getimagesize($file['tmp_name']));
+    // vendo os dados pelo getimagesize(de um arquivo aqui)
+

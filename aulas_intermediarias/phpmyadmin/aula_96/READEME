@@ -1,0 +1,11 @@
+Aula sobre ligação do PHP com o banco de dados
+
+    Existe várias APIS em PHP que te ajuda a vincular seu código PHP ao seu banco 
+de dados.
+    Vale mensionar que a muito tempo atras o PHP tinha uma class com funções proprias
+para vincular-se com o seu banco de dados MySQL, mas isso foi descontinuado.
+
+HOJE para vincularmos o PHP com o banco de dados usamos o pdo
+pdo = PHP Data Objects
+
+    O pdo não é somente para o MySQL, ele suporta outros tipos de banco de dados.

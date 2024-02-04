@@ -1,0 +1,33 @@
+em um arquivo criei 2 constantes
+
+define('AES_KEY', 'sçlk~djkma.skd,las');
+define('AES_IV', alkdjoqwkdls'');
+
+para encriptografar digite
+crtl shift p
+>generator random.. 
+numero de caracteres
+e criptografia desejada
+
+-------------------------------------
+Encriptação de base de dados
+
+bd_teste
+
+tabela contato
+id_contato primary key, int, auto_increment
+nome varbinary(100)            // varbinary é tipo varchar so que encriptado
+telefone varbinary(50)
+
+INSERT INTO clientes VALUES 
+    (0,
+     AES_ENCRYPT("João", UNHEX(SHA2("abc123", 512))),
+    (AES_ENCRYPT("10940384", UNHEX(SHA2("abc123", 512)))));
+
+
+Desencriptar para ver a tabela
+
+SELECT AES_DECRYPT(nome, UNHEX(SHA2("abc123", 512))) nome,
+AES_DECRYPT(telefone, UNHEX(SHA2("abc123", 512))) telefone
+FROM clientes;
+

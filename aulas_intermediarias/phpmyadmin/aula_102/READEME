@@ -1,0 +1,21 @@
+Nessa aula eu aprendi como criar um utilizador pelo phpMyAdmin
+
+1 - Adicionar um novo utilizador:
+    Clicar em contas de utilizador
+    Clicar em adicionar conta de utilizador
+    Dar nome ao utilizador
+    Em nome do Host usar o seguinte caracter "%"
+    Colocar uma senha 
+
+    A seguir clique em executar para criar o usuario
+
+2 - Dar privilegios
+    Ainda em contas de utilizador
+    Click em editar privilégios do recem criado utilizador
+    Click em base de dados e escolha o banco de dados que deseja vincular ao utilizador
+    Agora escolha os privilegios do utilizador
+
+3 - Excluir utilizador
+    Click em contas de utilizador
+    Click no utilizador que deseja remover
+    Em remover as contas de utilizador selecionadas click em executar

@@ -1,0 +1,7 @@
+Existe um session id, existe um ficheiro que é criado do lado do servidor
+e portanto o usuario não tem acesso a ele. E dentro do servidor temos os ficheiros
+(lá onde existem os cookies) que vão permanecer ativos enquanto a sessão estiver 
+aberta.
+
+Não temos que nos preocupar em limpar arquivos do navegador e do servidor, o proprio
+servidor se encarrega disso.

@@ -1,0 +1,13 @@
+Criar banco de dados pelo phpMyAdmin
+
+1 - Ao entrar no phpMyAdmin vamos ir em Base e dados, dar um nome para o banco de dados,
+após nomear vamos apertar em criar.
+
+2 - Em seguida criamos uma tabela com nome e numero de colunas.
+Sendo duas colunas, uma com chave primária e outra com um valor qualquer.
+
+ps: Nome do banco de dados é 'loja'
+
+3 - Colunas 'NomeColuna' 'TipoValor' 'Índice' '
+Coluna1 = id_cliente int primary_key auto_increment
+Coluna2 = nome varchar(50) 
