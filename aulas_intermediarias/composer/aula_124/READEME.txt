@@ -1,0 +1,36 @@
+composer é um gestor de bibliotecas
+
+nessa aula eu vislumbrei a grandeza do composer e entendi
+que não sei nada de nada e é isso mesmo, e esses manos que fizerão 
+essas bibliotecas e o composer são brabos
+se Deus me permitir serei bom assim um dia.
+
+COMANDOS USADOS
+
+// Requerindo a biblioteca monolog pelo composer
+composer require monolog/monolog
+
+
+// Requerindo a biblioteca phpmailer
+composer require phpmailer/phpmailer
+
+
+Voce pode ver os packs instalados em composer.json
+
+// -------------------------------------------------
+
+CASO VOCE TENHA APAGADO A PASTA vendor
+
+Use o comando "composer install"
+Esse comando vai baixar os packts dentro do arquivo composer.json
+
+// -----------------------------------------------------
+
+CASO EU QUEIRA REMOVER UM PACOTE DO MEU ARQUIVO/PASTA composer.json
+Exemplo: composer remove monolog/monolog
+
+// -----------------------------------------------------
+
+Para assinar o codigo digite 
+composer init
+ISSO EM UMA PASTA, E SIGA OS PASSOS...
