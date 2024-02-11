@@ -1,0 +1,67 @@
+API - Introdução
+
+API = Interface de Programação de Aplicações
+
+É um conjunto de regras, rotinhas e padrões, definidos ao nível do software, para que
+outras Aplicações possam aceder a determinadas funcionalidades da aplicação (API)
+sem que seja necessário que as outras aplicações conheçam as implementações da 
+aplicação, nomeadamente a tecnologia usada para a criar.
+
+                OU SEJA  
+
+Uma API é uma peça de software com a função de alimentar web serviçes a aplicações que
+desejão pegar informações do banco de dados por exemplo.
+
+EXEMPLOS:
+
+- APIs de um sistema operativo/sistema operacional
+
+- APIs de um motor gráfico para criação de jogos
+
+- APIs de uma rede social para obtenção de dados sobre os seus utilizadores
+
+// -------------------------------------------------------------------------
+
+API Web
+
+    É um conjunto de endereços (endpoints) relativamente aos quais as aplicações fazem
+requisições HTTP (HTTP requests) e recebem respostas (HTTP responses).
+    As respostas vêm em formatos padrão. Os mais comuns são XML e JSON.
+
+    Existem dois modelos que se destacam no tempo: SOAP e REST.
+        
+    SOAP - Simple Object Access Protocol
+        Modelo fundamentalmente caracterizado por respostas em formato XML.
+
+    REST - Representation State Transfer
+        Modelo cada vez mais utilizado e cujas respostas são produzidas, 
+        maioritariamente, em formato JSON.
+
+// -------------------------------------------------------------------------
+
+API REST
+
+    Representation State Transfer - É um estilo de arquitetura de software que define 
+um conjunto de regras para a construção e consumo de APIs através do protocolo HTTP, 
+é simples de implementar e é considerada como uma "stateless app" - não tem por 
+norma o objetivo de guardar dados numa sessão para serem usados mais à frente.
+
+COMO FUNCIONA?
+
+    Através de requisições HTTP (requests)
+    Repostas tradicionalmente em formato JSON
+    Sem estado entre comunições
+    Deve procurar facilitar cache de conteúdo no cliente
+    Deve ser completamente independente entre API e cliente
+    Pode permitir o uso de camadas (escalabilidade e segurança)
+
+
+REST | RESTFull
+
+REST
+
+    Arquitetura de desenvolvimento.
+
+RESTFull
+
+    Uma API que aplica por completo todas as regras da arquitetura REST.
