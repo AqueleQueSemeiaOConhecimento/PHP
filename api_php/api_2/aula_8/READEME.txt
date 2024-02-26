@@ -1,0 +1,6 @@
+
+    API PHP com acesso a Base de Dados MySQL
+    API de acesso público (clientes e produtos)
+
+    Requests GET e POST via PHP (cUrl)
+    Requests GET e POST via Javascript (Axios)
