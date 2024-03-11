@@ -1,0 +1,39 @@
+PUBLIC: 
+    São acessiveis de qualquer lugar
+
+PROTECTED
+    So são acessiveis dentro da propria class e de class derivadas.
+    Ou seja, podem ser acessadas por metodos public seja na propria class ou em subclass.
+
+PRIVATE
+    So são acessiveis dentro da propria class, não podem ser herdados mas podem ser acessados
+    por meio de uma função public
+
+STATIC
+    class Pai {
+    public static $propriedadeEstatica = 0;
+
+    public static function incrementar() {
+        self::$propriedadeEstatica++;
+    }
+    }
+
+    class Filho extends Pai {
+    }
+
+    // Modificando a propriedade estática da classe Pai
+    Pai::$propriedadeEstatica = 10;
+    echo Pai::$propriedadeEstatica; // Saída: 10
+
+    // A classe Filho também herda a propriedade estática
+    echo Filho::$propriedadeEstatica; // Saída: 10
+
+    // Incrementando a propriedade estática da classe Pai
+    Pai::incrementar();
+    echo Pai::$propriedadeEstatica; // Saída: 11
+
+    // A classe Filho também herda o efeito da função incrementar()
+    echo Filho::$propriedadeEstatica; // Saída: 11
+
+
+    No metodo static o que eu faço pra um faço pro outro, pai e filho, filho e pai
