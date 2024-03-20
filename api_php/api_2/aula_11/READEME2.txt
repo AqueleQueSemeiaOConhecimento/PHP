@@ -1,0 +1,21 @@
+Banco de Dados
+
+Loja_produtor
+
+
+table clientes
+id_cliente
+nome
+email
+telefone
+created_at
+updated_at
+deleted_at
+
+table produtos 
+id_produto
+produto 
+quantidade
+created_at
+updated_at
+deleted_at
